@@ -8,6 +8,7 @@ const counterReducer = (state= initialState, action)=>{
                 ...state,
                 count: state.count+1,
                 message: "You have pressed + button Count has been increased by 1"
+                // here it returned modified state 
             }
     
         case DECREASE_COUNT:

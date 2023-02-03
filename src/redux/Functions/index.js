@@ -5,7 +5,7 @@ export const increaseCountAction = () => async (dispatch) => {
       type: INCREASE_COUNT,
     });
   };
-
+// Functions defined here to dispatch actions 
 export const decreaseCountAction = () => async (dispatch) => {
     dispatch({
         type:DECREASE_COUNT
